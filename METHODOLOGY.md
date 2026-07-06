@@ -1,12 +1,89 @@
-# Life Anchor Methodology & SEL Framework / Life Anchor 方法论与 SEL 框架
+# Life Anchor Methodology & SEL Framework
 
-## 核心概念
+> **Ankey** = AI-powered family education story generator × ages 3-6 × SEL
 
-**Ankey（小锚）** 是一款 AI 家庭教育故事生成器，面向 3-6 岁儿童家长。
+**Methodology • Life Anchor 方法论 | SEL Framework • SEL 框架**
 
-### 产品哲学
+---
 
-> **把今天发生的事，变成今晚的故事，陪伴孩子每一步成长。**
+## Product Philosophy
+
+> "Turn what happened today into tonight's story, accompanying every step of growth."
+>
+> "把今天发生的事，变成今晚的故事，陪伴孩子每一步成长。"
+>
+> The most effective educational moment is right after a child's real-life experience.
+> 教育最有效的时机，发生在孩子的真实经历之后。
+
+### One-Minute Four-Step Flow
+
+<img src="conception.png" alt="Ankey product philosophy" width="500">
+
+## Core Concept: Life Anchor
+
+When a real-life event occurs, the parent logs it in the Ankey Mini Program. AI maps the event to an SEL goal and generates a personalized story within the 6-hour golden window. The parent reviews and pushes it to the screen-free story box for bedtime listening.
+
+The lesson is anchored to the child's lived experience — not an abstract concept.
+
+### The Educational Cycle
+
+```
+Real-life event → Parent logs → AI maps to SEL goal
+    → Personalized story → Child listens before sleep
+    → Lesson anchored to lived experience → Growth
+```
+
+## SEL Framework
+
+Social-Emotional Learning (CASEL framework) provides the educational backbone:
+
+| Category | Competencies |
+|----------|-------------|
+| Self-Awareness | Emotional recognition, self-confidence, identity |
+| Self-Management | Emotional regulation, perseverance, impulse control |
+| Social Awareness | Empathy, perspective-taking, respect |
+| Relationship Skills | Sharing, cooperation, conflict resolution |
+| Responsible Decision-Making | Problem-solving, ethical judgment, safety |
+
+## Fourth-Wall Narration
+
+The child is never the story protagonist. The narrator (storyteller) occasionally breaks the fourth wall to address the child directly:
+
+> "Mia, today we're going to tell a story about Peppa at the playground..."
+
+This creates:
+- **Immersion without ego**: The child identifies with the lesson without being the "problem character"
+- **Safe distance**: The child can reflect without feeling judged
+- **Engagement**: Direct address captures attention
+
+## Educational Foundation
+
+Ankey's methodology is grounded in established educational and cognitive science theories:
+
+| Theory | Source | Application |
+|--------|--------|-------------|
+| Cognitive Development | Piaget (Preoperational Stage) | Ages 3-6 target — concrete narrative needed |
+| ZPD | Vygotsky | Parent-guided comprehension |
+| Narrative Thinking | Bruner | Stories as primary meaning-making mode |
+| Narrative Transport | Green & Brock, 2000 | 22x more effective than direct instruction |
+| Experiential Learning | Dewey | Real-event basis for authentic learning |
+| Schema Theory | Piaget / Bartlett | Anchored learning, reduced cognitive load |
+| Self-Reference Effect | Cognitive psychology | Personalized stories remembered better |
+| Emotional Consolidation | Neuroscience | 6-hour plasticity window |
+| Sleep-Dependent Memory | Neuroscience | Bedtime stories leverage slow-wave consolidation |
+| Attachment Theory | Bowlby, Ainsworth | Parent-led delivery, safe base |
+| Self-Determination | Deci & Ryan | Parent autonomy, child competence |
+| Authoritative Parenting | Baumrind | High demand + high response |
+
+---
+
+## ———— 中文版 ————
+
+# Life Anchor 方法论与 SEL 框架
+
+## 产品哲学
+
+> 把今天发生的事，变成今晚的故事，陪伴孩子每一步成长。
 >
 > 教育最有效的时机，发生在孩子的真实经历之后。
 
@@ -14,55 +91,13 @@
 
 <img src="conception.png" alt="小锚产品哲学" width="500">
 
-核心理念是**生活锚定（Life Anchor）**：在真实事件发生后的 6 小时黄金窗口内，用 AI 生成匹配 SEL 教育目标的个性化故事，让每一次生活瞬间都变成有据可依的教育干预。
+## 核心概念：生活锚定（Life Anchor）
 
-## 教育理论基础 / Educational Foundation
+真实事件发生后，家长在小程序中记录，AI 映射到 SEL 教育目标并在 6 小时黄金窗口内生成个性化故事。家长审核后推送至无屏故事盒，孩子睡前收听。
 
-Ankey 的方法论建立在多项被验证的教育和认知科学理论之上。以下说明为什么这些设计对 3-6 岁儿童有效。
+教育内容锚定在孩子的真实经历上，而非抽象概念。
 
-Ankey's methodology is grounded in established educational and cognitive science theories. Here's why each design choice matters for children aged 3-6.
-
-### 为什么是 3-6 岁？/ Why Ages 3-6?
-
-**Piaget 认知发展理论 / Cognitive Development**：3-6 岁处于前运算阶段，儿童尚未具备抽象逻辑推理能力，教育必须通过具体、形象、有情节的载体传递。
-
-**Vygotsky 最近发展区理论（ZPD）**：儿童在成人协助下能完成的任务远多于独立完成。睡前亲子故事时间是天然的 ZPD 场景。
-
-**神经科学依据 / Neuroscience**：哈佛儿童发展中心研究表明，90% 大脑发育发生在 5 岁前。
-
-### 为什么是故事？/ Why Stories?
-
-**Bruner 叙事思维理论 / Narrative Thinking**：儿童优先发展叙事思维——他们通过故事理解因果关系、意图和道德。故事不是教育的装点，而是儿童理解世界的主要方式。
-
-**叙事传输理论 / Narrative Transport**（Green & Brock, 2000）：故事沉浸产生"叙事传输"效应，改变行为和态度的效果是直接说教的 22 倍以上。
-
-**记忆编码机制 / Memory Encoding**：情感唤醒的故事激活杏仁核 → 增强海马体记忆编码；睡前收听 → 睡眠周期中巩固；个性化内容 → 增强自传体记忆整合。
-
-### 为什么必须是真实事件？/ Why Real-Life Events?
-
-**Dewey 经验学习 / Experiential Learning**：教育必须建立在学习者的直接经验之上。
-
-**图式理论 / Schema Theory**：新知识通过关联已有心理图式来学习。基于真实事件的故事降低认知负荷、提高长期记忆保留率。
-
-**自我参照效应 / Self-Reference Effect**：与自我相关的信息记忆效果显著优于一般信息。
-
-### 为什么是 6 小时黄金窗口？/ Why the 6-Hour Golden Window?
-
-**情绪记忆巩固 / Emotional Memory Consolidation**：情绪唤醒事件后大脑进入可塑期，延迟干预效果指数级下降。
-
-**睡眠巩固效应 / Sleep-Dependent Consolidation**："今天发生 → 今晚讲"利用了睡眠的学习增强效应。
-
-**即时反馈优势 / Immediate Feedback**：反馈时间越短，行为修正效果越好。
-
-### 为什么家长是主角？/ Why Parent as the Protagonist?
-
-**依恋理论 / Attachment Theory**（Bowlby, Ainsworth）：安全的亲子依恋关系提供"安全基地"。
-
-**自我决定理论 / Self-Determination Theory**（Deci & Ryan）：Ankey 让家长成为教育的主动设计者。
-
-**权威型教养 / Authoritative Parenting**（Baumrind）：高要求 + 高回应的教养方式被证明最优。
-
-## 教育循环
+### 教育循环
 
 ```
 真实事件 → 家长记录 → AI 映射 SEL 目标
@@ -71,6 +106,8 @@ Ankey's methodology is grounded in established educational and cognitive science
 ```
 
 ## SEL 五大能力
+
+基于 CASEL 框架：
 
 | 类别 | 示例标签 |
 |------|---------|
@@ -84,10 +121,23 @@ Ankey's methodology is grounded in established educational and cognitive science
 
 孩子不是故事主角。讲述者偶尔打破第四面墙直接称呼孩子，创造安全的反思距离。
 
-## 立即使用
+## 教育理论基础
 
-微信搜索「小锚助手」小程序，把生活瞬间变成故事力量。
+Ankey 方法论建立在以下被验证的教育和认知科学理论之上（详见 `README.md` 完整阐述）：
 
-## Source
+- **Piaget 认知发展理论**：前运算阶段，需要具体叙事载体
+- **Vygotsky 最近发展区**：家长陪伴扩展理解力
+- **Bruner 叙事思维**：故事是儿童理解世界的主要方式
+- **叙事传输**：效果是直接说教的 22 倍
+- **Dewey 经验学习**：教育根植于直接经验
+- **图式理论**：基于真实事件降低认知负荷
+- **自我参照效应**：个性化故事记忆更优
+- **情绪记忆巩固**：6 小时可塑期
+- **睡眠巩固效应**：睡前故事利用慢波睡眠
+- **依恋理论**：家长主导提供安全基地
+- **自我决定理论**：家长自主性与孩子胜任感
+- **权威型教养**：高要求 + 高回应
 
-Part of [Ankey (小锚)](https://www.miuflow.com/ankey/) by miuflow.
+---
+
+*Ankey (小锚) — [miuflow.com/ankey](https://www.miuflow.com/ankey/)*

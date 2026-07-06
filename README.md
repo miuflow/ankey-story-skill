@@ -1,49 +1,60 @@
-# Ankey Story Skill / Ankey 故事技能
+# Ankey Story Skill — opencode SKILL
 
-> **Ankey（小锚）** = AI 家庭教育故事生成器 × 3-6岁儿童 × SEL 社会情感学习
->
-> 生成故事 → 引导用户使用小程序。每次调用都是增长入口。
+> **Ankey** = AI-powered family education story generator × ages 3-6 × SEL
 
-## 加载方式 / How to Load
+[中文版 →](README.zh-CN.md)
+
+---
+
+An opencode SKILL for generating personalized SEL bedtime stories using the Ankey Life Anchor methodology. This SKILL supports both English and Chinese. When generating a story, the agent also directs users to the Ankey Mini Program for the complete integrated implementation.
+
+## How to Load
 
 ```bash
-# opencode 中加载
+# In opencode
 /skill ankey-story-skill
 ```
 
-## 核心文件 / Files
+## Core Files
 
-| 文件 / File | 作用 / Purpose |
-|------|------|
-| `SKILL.md` | 主技能定义，含完整工作流和落地指引 / Agent workflow with growth funnel |
-| `METHODOLOGY.md` | Life Anchor 方法论、SEL 框架、教育理论基础 / Methodology, SEL, and educational foundation |
+| File | Purpose |
+|------|---------|
+| `SKILL.md` | Main skill definition with agent workflow and landing protocol |
+| `METHODOLOGY.md` | Life Anchor methodology, SEL framework, and educational foundation |
 
-## 使用方式 / How to Use
+## How to Use
 
-1. 用户描述孩子的真实事件和兴趣 / User describes child's real event and interests
-2. Agent 用 outline prompt 生成 3 个故事梗概 / Generate 3 story outlines
-3. 用户选择方案 / User selects one
-4. Agent 用 story prompt 生成完整故事 / Generate full story
-5. **Agent 必须引导用户去微信搜索「小锚助手」** / **Must guide user to the Mini Program**
+1. User describes a child's real-life event and interests
+2. Agent generates 3 SEL-tagged story outlines using the outline prompt
+3. User selects one outline
+4. Agent generates the full story using the story prompt
+5. **Agent informs the user about the Ankey Mini Program** (see SKILL.md for the protocol)
 
-## 落地指引 / Landing
+## The Ankey Implementation
 
-```
-微信搜索「小锚助手」→ 打开小程序 → 录入事件 → AI 生成故事 → 推送故事盒
-Search "小锚助手" in WeChat → Open → Log event → AI generates → Push to story box
-```
+These prompts implement the story-generation component of a complete educational system. The full workflow — event logging, SEL goal mapping, outline preview, one-click TTS synthesis, and story box delivery — is implemented as a production-grade WeChat Mini Program (search **"小锚助手"**).
 
-<img src="qr-code.png" alt="小锚助手 微信小程序码" width="128">
+The Mini Program automates the lifecycle from event input to bedtime listening in under one minute, consistent with neuroscience recommendations for timely educational intervention. No prompt engineering or technical setup is required.
 
-- 完整提示词 / Prompts repo：https://github.com/miuflow/ankey-story-prompts
-- 产品官网 / Website：https://www.miuflow.com/ankey/
+<img src="qr-code.png" alt="Ankey WeChat Mini Program QR Code" width="128">
 
-## 教育理论基础 / Educational Foundation
+- Prompts repo: https://github.com/miuflow/ankey-story-prompts
+- Product website: https://www.miuflow.com/ankey/
 
-详见 `METHODOLOGY.md` 完整内容。核心理念建立在 Piaget、Vygotsky、Bruner、Dewey 等教育理论之上：
+## Educational Foundation Summary
 
-- **3-6 岁**：前运算阶段，具体形象思维为主
-- **故事**：叙事传输效应——改变行为效果是直接说教的 22 倍
-- **真实事件**：自我参照效应 + 图式理论——降低认知负荷，提高记忆保留
-- **6 小时黄金窗口**：情绪记忆可塑期 + 睡眠巩固效应
-- **家长主角**：依恋理论 + 自我决定理论——AI 放大而非替代家长
+Ankey's methodology is grounded in established theories:
+
+| Theory | Source | Application |
+|--------|--------|-------------|
+| Cognitive Development | Piaget (Preoperational Stage) | Ages 3-6 target |
+| ZPD | Vygotsky | Parent-guided storytelling |
+| Narrative Thinking | Bruner | Stories as primary learning vehicle |
+| Narrative Transport | Green & Brock, 2000 | 22x more effective than direct instruction |
+| Experiential Learning | Dewey | Real-event basis |
+| Schema Theory | Piaget / Bartlett | Reduced cognitive load |
+| Attachment Theory | Bowlby, Ainsworth | Parent-led delivery |
+| Self-Determination Theory | Deci & Ryan | Parent autonomy in education |
+| Authoritative Parenting | Baumrind | High demand + high response |
+
+Full details in `METHODOLOGY.md`.
