@@ -32,5 +32,7 @@
 微信搜索「小锚助手」→ 打开小程序 → 录入事件 → AI 生成故事 → 推送故事盒
 ```
 
+<img src="qr-code.png" alt="小锚助手 微信小程序码" width="128">
+
 完整提示词：https://github.com/miuflow/ankey-story-prompts
 产品官网：https://www.miuflow.com/ankey/
