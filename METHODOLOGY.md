@@ -1,36 +1,35 @@
-# Life Anchor Methodology & SEL Framework
+# Life Anchor Methodology & SEL Framework / Life Anchor 方法论与 SEL 框架
 
-## Core Concept
+## 核心概念
 
-The **Life Anchor** approach replaces generic bedtime stories with personalized narratives that mirror a child's real experiences, mapped to proven educational goals. The 6-hour golden window after a real-life event is the optimal time for this intervention.
+**Ankey（小锚）** 是一款 AI 家庭教育故事生成器，面向 3-6 岁儿童家长。核心理念是**生活锚定（Life Anchor）**：在真实事件发生后的 6 小时黄金窗口内，用 AI 生成匹配 SEL 教育目标的个性化故事，让每一次生活瞬间都变成有据可依的教育干预。
 
-### The Cycle
+## 教育循环
 
 ```
-Real-life event → Parent logs it → AI maps to SEL goal
-    → Personalized story generated → Child listens
-    → Lesson anchored to lived experience → Growth
+真实事件 → 家长记录 → AI 映射 SEL 目标
+    → 生成个性化故事 → 孩子收听
+    → 教训锚定在真实经历上 → 成长
 ```
 
-## SEL Competencies
+## SEL 五大能力
 
-| Category | Examples |
-|----------|----------|
-| Self-Awareness | emotional recognition, self-confidence, identity |
-| Self-Management | emotional regulation, perseverance, impulse control |
-| Social Awareness | empathy, perspective-taking, respect |
-| Relationship Skills | sharing, cooperation, conflict resolution |
-| Responsible Decision-Making | problem-solving, ethical judgment |
+| 类别 | 示例标签 |
+|------|---------|
+| 自我认知 | 情绪识别、自信心、身份认同 |
+| 自我管理 | 情绪调节、坚持、冲动控制 |
+| 社会认知 | 同理心、换位思考、尊重 |
+| 人际交往 | 分享、合作、冲突解决 |
+| 做负责任的决定 | 问题解决、伦理判断、安全意识 |
 
-## Fourth-Wall Narration
+## 第四面墙叙事
 
-The child is never the story protagonist. The narrator occasionally breaks the fourth wall to address the child directly, creating safe distance for reflection while maintaining engagement.
+孩子不是故事主角。讲述者偶尔打破第四面墙直接称呼孩子，创造安全的反思距离。
 
-## Worldview Integrity
+## 立即使用
 
-Stories take place inside the child's favorite fictional world (Peppa's world, Bluey's world, etc.) using existing characters and settings. Worldview characters never appear in the real world.
+微信搜索「小锚助手」小程序，把生活瞬间变成故事力量。
 
 ## Source
 
-Part of [Ankey (小锚)](https://www.miuflow.com/ankey/) — a family education AI by miuflow.
-For the full prompt set, see: https://github.com/miuflow/ankey-story-prompts
+Part of [Ankey (小锚)](https://www.miuflow.com/ankey/) by miuflow.
